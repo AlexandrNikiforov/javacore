@@ -2,7 +2,16 @@ package ru.alexnikiforov.tictactoe;
 
 public class Field {
     int spaceNumber;
-    String space1, space2, space3, space4, space5, space6, space7, space8, space9;
+    String space1 = " ";
+    String space2 = " ";
+    String space3 = " ";
+    String space4 = " ";
+    String space5 = " ";
+    String space6 = " ";
+    String space7 = " ";
+    String space8 = " ";
+    String space9 = " ";
+
 
 //SpaceState space2 = SpaceState.EMPTY;
 //SpaceState space3 = SpaceState.EMPTY;
@@ -14,51 +23,48 @@ public class Field {
 //SpaceState space9 = SpaceState.EMPTY;
 
     public int setSpaceNumber(int spaceNumber) {
-        this.spaceNumber = spaceNumber;
+        if (spaceNumber > 0 && spaceNumber < 10) {
+            this.spaceNumber = spaceNumber;
+        } else
+            System.out.println("Invalid value!");
         return spaceNumber;
 
     }
 
-    @Override
-    public String toString() {
-        return "Field{" +
-                "spaceNumber=" + spaceNumber +
-                ", space1='" + space1 + '\'' +
-                ", space2='" + space2 + '\'' +
-                ", space3='" + space3 + '\'' +
-                ", space4='" + space4 + '\'' +
-                ", space5='" + space5 + '\'' +
-                ", space6='" + space6 + '\'' +
-                ", space7='" + space7 + '\'' +
-                ", space8='" + space8 + '\'' +
-                ", space9='" + space9 + '\'' +
-                '}';
-    }
 
-    public void setMark(String y) {
+
+    public void setMark(String mark) {
         if (spaceNumber == 1) {
-            space1 = y;
+            space1 = mark;
         } else if (spaceNumber == 2) {
-            space2 = y;
+            space2 = mark;
         }
         else if (spaceNumber == 3) {
-            space3 = y;
+            space3 = mark;
         }else if (spaceNumber == 4) {
-            space4 = y;
+            space4 = mark;
         }else if (spaceNumber == 5) {
-            space5 = y;
+            space5 = mark;
         }
         else if (spaceNumber == 6) {
-            space6 = y;
+            space6 = mark;
         }else if (spaceNumber == 7) {
-            space7 = y;
+            space7 = mark;
         }else if (spaceNumber == 8) {
-            space8 = y;
-        } else if (spaceNumber == 8) {
-            space8 = y;
+            space8 = mark;
+        } else if (spaceNumber == 9) {
+            space8 = mark;
         }
 
 
+    }
+
+    public void showField() {
+        System.out.println(space1 + " | " + space2 + " | " + space3);
+        System.out.println("---------");
+        System.out.println(space4 + " | " + space5 + " | " + space6);
+        System.out.println("---------");
+        System.out.println(space7 + " | " + space8 + " | " + space9);
     }
 
 }

@@ -6,14 +6,18 @@ public class GameRunner {
         GameLogic.intro();
 
         while (!GameLogic.getGameOver()) {
-            GameLogic.chooseSpace();
-            GameLogic.markSpaceWithXor0();
+            GameLogic.playersMove();
             GameLogic.show();
             GameLogic.gameOver();
-            GameLogic.computerMarksSpaceWithXor0 (GameLogic.computerIsChoosingSpace ());
+            GameLogic.computersMove();
             GameLogic.show();
             GameLogic.gameOver();
         }
+        GameLogic.showWinnerName();
+
+        //компьютер перезатирает ходы игрока. нужно найти баг
+
+
 
 
 

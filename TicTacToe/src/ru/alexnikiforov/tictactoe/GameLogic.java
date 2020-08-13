@@ -6,11 +6,9 @@ import java.util.Random;
 
 public class GameLogic {
     static int spaceNumber;
-    static String mark;
 
     public static Field f = new Field();
     static Scanner scanner = new Scanner(System.in);
-    static Scanner scanner2 = new Scanner(System.in);
     static Random rand = new Random();
     static String endGameMessage;
     static boolean gameOver;
@@ -107,7 +105,6 @@ public class GameLogic {
             (f.getSpace3().equals("X") && f.getSpace5().equals("X") && f.getSpace7().equals("X"))) {
             endGameMessage = "You wins!";
             gameOver = true;
-           // System.out.println("Метод gameOver отработал с иксами тру");
         } else if (
             (f.getSpace4().equals("0") && f.getSpace5().equals("0") && f.getSpace6().equals("0")) ||
             (f.getSpace1().equals("0") && f.getSpace2().equals("0") && f.getSpace3().equals("0")) ||
@@ -128,7 +125,6 @@ public class GameLogic {
             gameOver = true;
         } else {
             gameOver = false;
-          //  System.out.println("Метод gameOver отработал с false");
         }
         return gameOver;
     }

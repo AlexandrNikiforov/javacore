@@ -8,11 +8,11 @@ public class GameLogic {
     static int spaceNumber;
     static String mark;
 
-    static Field f = new Field();
+    public static Field f = new Field();
     static Scanner scanner = new Scanner(System.in);
     static Scanner scanner2 = new Scanner(System.in);
     static Random rand = new Random();
-    static String winner;
+    static String endGameMessage;
     static boolean gameOver;
 
     public static void intro()    {
@@ -44,43 +44,52 @@ public class GameLogic {
         System.out.println("Your space was marked with X: ");
     }
 
-//    public static void markSpaceWithXor0 () {
-//        do {
-//            System.out.println("Type 0 or X for this space:\n ");
-//            mark = scanner2.nextLine();
-//            f.setMark(mark);
-//        } while (!mark.equals("X") && !mark.equals("x") && !mark.equals("0") && !mark.equals("o") && !mark.equals("O"));
-//        whoseMove = 0;
-//    }
-
+    //this is method for regular program run
     public static void computersMove() {
-        System.out.println("This is a computer's move (space was marked with 0: ");
-        int spaceNumber = Math.round(rand.nextInt(10) + 1);
+        System.out.println("This is a computer's move (space was marked with 0): ");
+        spaceNumber = Math.round(rand.nextInt(10) + 1);
         boolean spaceIsFree = f.checkIfSpaceIsFree(spaceNumber);
         if (!spaceIsFree) {
             while (!f.checkIfSpaceIsFree(spaceNumber)) {
                 spaceNumber = Math.round(rand.nextInt(10) + 1);
             }
-            f.setMark("0");
+            f.setSpaceNumber(spaceNumber);
             f.setMark("0");
         } else {
             f.setSpaceNumber(spaceNumber);
             f.setMark("0");
         }
+
     }
-//    public static void computerMarksSpaceWithXor0 (int spaceNumber) {
+
+    //computersMove method for testing
+//    public static void computersMove() {
+//        System.out.println("This is a computer's move (space was marked with 0): ");
 //
-//            int markIndex = Math.round (rand.nextInt(1));
-//            if (markIndex == 0) {
-//                mark = "0";
-//            } else {
-//                mark = "X";
+//        do {
+//            System.out.println("Choose a space - type a number from 1 to 9:");
+//            spaceNumber = scanner.nextInt();
+//
+//            if (!f.checkIfSpaceIsFree(spaceNumber)) {
+//                while (!f.checkIfSpaceIsFree(spaceNumber)) {
+//                    System.out.println("Invalid space number! Type another space number: ");
+//                    spaceNumber = scanner.nextInt();
+//                }
 //            }
-//            f.setMark(mark);
-//        System.out.println(mark);
-//        whoseMove = 1;
+//            f.setSpaceNumber(spaceNumber);
+//            f.setMark("0");
 //
+//
+//        } while (spaceNumber < 1 || spaceNumber > 9);
+//        System.out.println("Your space was marked with X: ");
 //    }
+
+
+
+
+
+
+
 
     public static void show () {
         f.showField();
@@ -96,8 +105,9 @@ public class GameLogic {
             (f.getSpace3().equals("X") && f.getSpace6().equals("X") && f.getSpace9().equals("X")) ||
             (f.getSpace1().equals("X") && f.getSpace5().equals("X") && f.getSpace9().equals("X")) ||
             (f.getSpace3().equals("X") && f.getSpace5().equals("X") && f.getSpace7().equals("X"))) {
-            winner = "You";
+            endGameMessage = "You wins!";
             gameOver = true;
+           // System.out.println("Метод gameOver отработал с иксами тру");
         } else if (
             (f.getSpace4().equals("0") && f.getSpace5().equals("0") && f.getSpace6().equals("0")) ||
             (f.getSpace1().equals("0") && f.getSpace2().equals("0") && f.getSpace3().equals("0")) ||
@@ -107,16 +117,24 @@ public class GameLogic {
             (f.getSpace3().equals("0") && f.getSpace6().equals("0") && f.getSpace9().equals("0")) ||
             (f.getSpace1().equals("0") && f.getSpace5().equals("0") && f.getSpace9().equals("0")) ||
             (f.getSpace3().equals("0") && f.getSpace5().equals("0") && f.getSpace7().equals("0"))) {
-            winner = "Computer";
+            endGameMessage = "Computer wins!";
+            gameOver = true;
+        } else if
+                (!f.getSpace1().equals(" ") && !f.getSpace2().equals(" ") && !f.getSpace3().equals(" ") &&
+                !f.getSpace4().equals(" ") && !f.getSpace5().equals(" ") && !f.getSpace6().equals(" ") &&
+                !f.getSpace7().equals(" ") && !f.getSpace8().equals(" ") && !f.getSpace9().equals(" "))
+        {
+            endGameMessage = "Draw!";
             gameOver = true;
         } else {
             gameOver = false;
+          //  System.out.println("Метод gameOver отработал с false");
         }
         return gameOver;
     }
 
     public static void showWinnerName () {
-        System.out.println(winner + " wins!");
+        System.out.println(endGameMessage);
     }
 
     public static boolean getGameOver() {

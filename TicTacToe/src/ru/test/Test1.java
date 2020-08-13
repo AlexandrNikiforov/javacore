@@ -1,13 +1,13 @@
-package ru.alexnikiforov.tictactoe;
-public class Test {
+package ru.test;
 
+public class Test1 {
 
     public static void main(String[] args) {
 
-        isSpaceFree(1);
+        System.out.println( isSpaceFree(1));
 
     }
-    static String space1 = " ";
+    static String space1 = "1 ";
 
 
     public static boolean isSpaceFree(int spaceNumber) {
@@ -21,6 +21,3 @@ public class Test {
         return spaceIsFree;
     }
 }
-
-
-

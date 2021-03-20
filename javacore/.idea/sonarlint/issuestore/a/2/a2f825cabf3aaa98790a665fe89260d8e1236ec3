@@ -1,0 +1,10 @@
+
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¸áÄšşÿÿÿÿ8‡ÊËŠ‚/
+C
+java:S1481"&Remove this unused "b" local variable.(Äû©8‡ÊËŠ‚/
+R
+java:S1854"5Remove this useless assignment to local variable "b".(Äû©8‡ÊËŠ‚/
+T
+java:S3518"7Make sure "a" can't be zero before doing this division.(Äû©8‡ÊËŠ‚/
+]	java:S125"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ8øöÆŠ‚/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°êƒ§ùÿÿÿÿ8¥ÌŠ‚/

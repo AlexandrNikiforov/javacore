@@ -1,14 +1,14 @@
 
-Z	java:S106	"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8×®Ì©‚/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿Õİüÿÿÿÿ8Ïªá©‚/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(áÌÓÌ8ÔçÂ©‚/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(İÆüÿÿÿÿ8ÜáŞ©‚/
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(Êö¸úÿÿÿÿ8”®Ş©‚/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(áÌÓÌ8ÔçÂ©‚/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÀôŒ™8¥ˆÉ©‚/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«à¸êûÿÿÿÿ8ñÌÚ©‚/
 W
 java:S1854"5Remove this useless assignment to local variable "a".(×ó‰«ÿÿÿÿÿ8¥ˆÉ©‚/
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8–ÃÍ©‚/
 i
 java:S1192"GDefine a constant instead of duplicating this literal "; i = " 4 times.(Êö¸úÿÿÿÿ8Ñïè©‚/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(«à¸êûÿÿÿÿ8ñÌÚ©‚/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÀôŒ™8¥ˆÉ©‚/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿Õİüÿÿÿÿ8Ïªá©‚/
 U	java:S106"9Replace this use of System.out or System.err by a logger.(šÅÖ•8Ïªá©‚/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(İÆüÿÿÿÿ8ÜáŞ©‚/
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8×®Ì©‚/

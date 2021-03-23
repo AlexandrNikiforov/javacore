@@ -1,4 +1,4 @@
-package javaprogrammingmasterclass.section09.inner.video127;
+package javaprogrammingmasterclass.section09.video127.memberinnerclasses;
 
 public class GearBoxMain {
     public static void main(String[] args) {

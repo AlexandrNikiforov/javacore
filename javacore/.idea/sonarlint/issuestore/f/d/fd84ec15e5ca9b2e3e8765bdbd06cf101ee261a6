@@ -1,17 +1,17 @@
 
 G
 java:S1068"%Remove this unused "b" private field.(Ø¾ì±üÿÿÿÿ8áÓÄ²ƒ/
-{
-java:S1171
-"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8áÓÄ²ƒ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(˜ º8áÄÈ³ƒ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‰ô—·8‘³ƒ/
 Š
 java:S1130"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.( İÏª8ÛíÖ³ƒ/
 G
 java:S1068"%Remove this unused "a" private field.(Ş‹®øÿÿÿÿ8áÓÄ²ƒ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‰ô—·8‘³ƒ/
 G
 java:S1068"%Remove this unused "c" private field.(µì¿¾øÿÿÿÿ8–³³ƒ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¼Ä¤Õÿÿÿÿÿ8ç¢Å²ƒ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(˜ º8áÄÈ³ƒ/
 Š
 java:S1130"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.( Êã¬8Û“ä³ƒ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¼Ä¤Õÿÿÿÿÿ8ç¢Å²ƒ/
+{
+java:S1171
+"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8áÓÄ²ƒ/

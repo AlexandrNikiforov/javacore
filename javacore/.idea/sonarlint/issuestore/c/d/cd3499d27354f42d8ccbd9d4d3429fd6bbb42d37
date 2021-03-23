@@ -1,13 +1,13 @@
 
-G
-java:S1068"%Remove this unused "b" private field.(Ø¾ì±üÿÿÿÿ8ÁÃõ³ƒ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(˜ º8çÃù³ƒ/
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(¯é€–üÿÿÿÿ8ñ†õ³ƒ/
 Š
 java:S1130"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ƒôªÿ8ñ†õ³ƒ/
 G
 java:S1068"%Remove this unused "a" private field.(Ş‹®øÿÿÿÿ8ÁÃõ³ƒ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‰ô—·8ñ†õ³ƒ/
+G
+java:S1068"%Remove this unused "b" private field.(Ø¾ì±üÿÿÿÿ8ÁÃõ³ƒ/
 
 java:S1130"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(Ü¹çËøÿÿÿÿ8ñ†õ³ƒ/
-Z	java:S106
-"9Replace this use of System.out or System.err by a logger.(¯é€–üÿÿÿÿ8ñ†õ³ƒ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(˜ º8çÃù³ƒ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‰ô—·8ñ†õ³ƒ/

@@ -1,0 +1,8 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÀüÙ¿8¯Êéä‡/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(é»§Ëıÿÿÿÿ8¥«å‡/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¯Ì¨øÿÿÿÿ8¤×‡å‡/
+Q
+java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8¥«å‡/
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8¥«å‡/

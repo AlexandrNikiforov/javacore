@@ -1,0 +1,19 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(‰õğ¡8Ş®Ìˆ/
+b
+java:S1854"@Remove this useless assignment to local variable "mapOfResults".(ì ›Åıÿÿÿÿ8´êèÌˆ/
+e
+java:S1854"CRemove this useless assignment to local variable "characterStream".(´¹ç°ıÿÿÿÿ8Ş®Ìˆ/
+S
+java:S1481"1Remove this unused "mapOfResults" local variable.(ì ›Åıÿÿÿÿ8´êèÌˆ/
+J
+java:S1481".Remove this unused "intStream" local variable.(•§ÉY8’ÖÚ¢ˆ/
+]	java:S125"<This block of commented-out lines of code should be removed.(ÖåÀ‰üÿÿÿÿ8î¯Ìˆ/
+T
+java:S3958"2Refactor the code so this stream pipeline is used.(´¹ç°ıÿÿÿÿ8Ş®Ìˆ/
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8ÈŸŠ¤ˆ/
+Y
+java:S1854"=Remove this useless assignment to local variable "intStream".(•§ÉY8’ÖÚ¢ˆ/
+V
+java:S1481"4Remove this unused "characterStream" local variable.(´¹ç°ıÿÿÿÿ8Ş®Ìˆ/

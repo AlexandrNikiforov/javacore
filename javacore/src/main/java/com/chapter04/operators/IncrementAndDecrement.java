@@ -1,4 +1,4 @@
-package main.java.com.chaptet04.operators;
+package main.java.com.chapter04.operators;
 
 public class IncrementAndDecrement {
 

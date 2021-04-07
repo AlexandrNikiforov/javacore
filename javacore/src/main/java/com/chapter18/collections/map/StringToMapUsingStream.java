@@ -19,9 +19,9 @@ public class StringToMapUsingStream {
 //        Map<Character, Integer> mapOfResults =
 //                characterStream.collect(Collectors.toMap(Character::getName,() -> characterStream.count() ));
 
-        Map<Character, Integer> mapOfResults = sentence.chars()
-                                                     .mapToObj(c -> (char) c)
-                                                     .collect(Collectors.toMap(Character::getName, Collectors.counting()));
+//        Map<Character, Integer> mapOfResults = sentence.chars()
+//                                                     .mapToObj(c -> (char) c)
+//                                                     .collect(Collectors.toMap(Character::getName, Collectors.counting()));
 
 //        System.out.println(mapOfResults);
 

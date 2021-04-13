@@ -1,0 +1,18 @@
+
+^
+java:S1854"CRemove this useless assignment to local variable "characterStream".(´¹ç°ýÿÿÿÿ
+C
+java:S1481".Remove this unused "intStream" local variable.(•§ÉY
+Q	java:S125"<This block of commented-out lines of code should be removed.(‰õð¡
+N
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Íž
+X
+java:S1612"=Replace this lambda with method reference 'char.class::cast'.(§ù³æûÿÿÿÿ
+R
+java:S1854"=Remove this useless assignment to local variable "intStream".(•§ÉY
+M
+java:S3958"2Refactor the code so this stream pipeline is used.(´¹ç°ýÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÖåÀ‰üÿÿÿÿ
+O
+java:S1481"4Remove this unused "characterStream" local variable.(´¹ç°ýÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(¬Œ…ž8õì™âŠ/
